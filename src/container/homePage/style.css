@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 60px);
+    overflow: hidden;
+}
+.listOfUsers{
+    width: 30%;
+    height: 100%;
+    overflow-x: hidden;
+    border-right: 1px solid #ccc;
+    background: #dcf8c6;
+}
+
+
+.chatArea{
+    width: 70%;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+    background-color: rgb(202, 193, 193);
+}
+
+.chatHeader{
+    position: fixed;
+    width: 70%;
+    height: 40px;
+    background: #e2e0e0;
+    text-align: center;
+    line-height: 40px;
+    color: #000;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.chatControls{
+    display: flex;
+    position: fixed;
+    width: 70%;
+    height: 50px;
+    bottom: 0;
+    background:#ece5dd;
+}
+
+.chatControls input{
+    width: 90%;
+    height: 29px;
+    margin: auto;
+    margin: 9px 0;
+    margin-left: 80px;
+    margin-right: 10px;
+    border-radius: 25px;
+    border: none;
+    padding: 0 10px;
+    outline:none;
+}
+
+.chatControls button{
+    width: 10%;
+    box-sizing: border-box;
+    margin: 10px 0;
+    margin-right: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color:  rgb(202, 193, 193);
+    cursor: pointer;
+    outline: none;
+}
+
+.displayName{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    margin: 7px 0;
+
+}
+
+.displayName {
+    background-color: rgb(240, 233, 174);
+}
+
+/* .displayName :first-child{
+    color: gray;
+} */
+
+/* .displayName{
+    background: gray;
+} */
+
+.displayName .displayPic{
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.displayName .displayPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+ .messageStyle{
+    font-size: 12px; 
+    padding: 5px 10px;
+    background-color: #fff;
+    display: inline-block;
+    border-radius: 7px;
+    margin: 5px 10px;
+    
+    display: inline-block;
+     /* font-weight: 400; */
+    
+    /* height: 14px; */
+
+ }
+.messageSections{
+    height: calc(100%-90px);
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+    top: 40px;
+} 
+
+.onlineStatus {
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(120, 228, 13);
+    box-shadow: 0 0 10px 0 rgb(120, 228, 13);
+}
+
+.onlineStatus.off{
+    background-color: green;
+    box-shadow: 0 0 0 0;
+}

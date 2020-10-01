@@ -1,0 +1,21 @@
+.signUpContainer{
+    margin: 50px auto;
+    width: 400px;
+    position: relative;
+}
+
+.signupBtn button{
+    color: #fff;
+    background-color: #128c7e;
+    width: 70px;
+    height: 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+}
+.signupBtn {
+    padding: 0 10px;
+    padding-bottom: 10px;
+    background-color: rgb(229, 226, 226);
+}

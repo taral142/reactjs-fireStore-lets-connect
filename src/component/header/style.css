@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    position: relative;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #075e54;
+    color: #fff;
+}
+.leftMenu{
+    display: flex;
+}
+
+.logo{
+    margin: 18px;
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.loginSignUpMenu{
+    display: flex;
+    margin: 25px;
+}
+
+.loginSignUpMenu li a{
+    color: #fff;
+    margin: 0 7px;
+    text-transform: capitalize;
+}
+
+.loginSignUpMenu li a.active{
+    font-weight: bold;
+}
+
+.greatings{
+    margin: 25px;
+    font-weight: bold;
+}
+
+.rightMenu{
+    margin: 25px;
+}
+
+.rightMenu a{
+    color:#fff;
+    text-transform: capitalize;
+    font-weight: bold;
+}
